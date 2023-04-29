@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    margin-left: 20px;
+  }
+
+p {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+img {
+    border: 10px solid navy;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Define the main Navigation block */
+.myMenu {
+  display: block;
+  height: 78px;
+  line-height: 50px;
+  background-color: #333;
+}
+/* Remove bullets, margin and padding */
+.myMenu ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.myMenu li {
+  float: left;
+  /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.myMenu li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.myMenu li a:hover {
+  background-color: #04AA6D;
+  color: black;
+}
+
+/* Optional, active link color changes */
+.myMenu li a:active {
+  background-color: pink;
+  color: white;
+}
